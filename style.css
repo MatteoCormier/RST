@@ -1,36 +1,63 @@
+/* change the colour, position, and font size for the first header */
 h1 {
   color: rgb(255, 106, 106);
   text-align: center;
   font-size: 8em
 }
 
+/* change the colour, position, and font size of the second header */
 h2 {
   color: rgb(255, 196, 196);
   text-align: center;
   font-size: 3em
 }
 
-h3 {
+/* change the colour, position, font size, and font of the paragraph */
+p {
   color: rgb(255, 255, 255);
   text-align: center;
+  font-size: .5em;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
-h4 {
+/* change the colour and position of the third header */
+h3 {
   color: rgb(255, 144, 144);
   text-align: center;
 }
 
+/* change the position and colour of the fourth header */
+h4 {
+  text-align: center;
+  color: rgb(253, 255, 162)
+}
+
+/* change the position, increase the size, and change the colour of the fifth header */
+h5 {
+  text-align: center;
+  font-size: 200%;
+  color: rgb(0, 255, 21)
+}
+
+/* change the corner radius, border length and colour, and size of the image. */
 img {
   border-radius: 20px;
   border: 5px solid rgb(0, 140, 255);
-  width: 50%;
+  width: 25%;
 }
 
-body {
-  background-color: rgb(0, 0, 0)
-
+/* increase the font size, change the position, increase the padding, change the bkg colour, and the text colour of the footer. */
 footer {
+  font-size: 150%;
   text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
+  padding: 8px;
+  background-color: rgb(77, 77, 77);
   color: white;
+}
+
+/* change the position, increase the size of the text, and change the colour of the form text (text boxes, radio buttons, and checkboxes) */
+form {
+  text-align: center;
+  font-size: 150%;
+  color: aqua;
+}
